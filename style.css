@@ -2,8 +2,8 @@
 #0D1B2A
 #1B263B
 #415A77
-#778DA9
-#E0E1DD
+#607898 (new)
+#FFF
 */
 
 
@@ -21,6 +21,7 @@ body {
     background: #0D1B2A;
     color: #FFF;
     line-height: 1.6;
+    font-size: 18px;
 }
 
 h2, p, li, h3 {
@@ -39,11 +40,12 @@ h2, p, li, h3 {
     border-radius: 10px;
     margin-top: 10px;
     transition: background-color .3s ease-in-out;
+    margin: 15px 0;
   }
 
 
   .button:hover {
-    background-color: #778DA9;
+    background-color: #607898;
   }
 
 /* Syling for header */
@@ -101,7 +103,7 @@ nav > ul >li > a {
 }
 
 nav > ul > li > a:hover {
-    color: #778DA9;
+    color: #607898;
     box-shadow: inset 100px 0 1px 2px #0D1B2A;
 }
 
@@ -206,6 +208,11 @@ nav .fa-solid {
     transition: height 0.5s;
 }
 
+
+.layer > p {
+    font-size: 18px;
+}
+
 .layer > h3 {
     font-weight: 500;
     margin-bottom: 20px;
@@ -246,13 +253,13 @@ nav .fa-solid {
 i {
     color: #FFF;
     margin-top: 15px;
-    font-size: 30px;
+    font-size: 40px;
     display: inline-block;
     margin-right: 15px;
     align-items: center;
 }
 
-/* Styling for About Page */
+/* Styling for Pluto-Pay Page */
 
 .portfolio-img {
     display: block;
@@ -300,6 +307,7 @@ i {
 }
 
 /* Media Queries */
+
 
 @media only screen and (max-width: 600px){
     #header {
@@ -358,6 +366,18 @@ i {
 
     .sidebar, .main {
         grid-column-start: span 1;
+    }
+
+    .layer > h3 {
+        font-size: 20px;
+    }
+
+    .layer > p {
+        font-size: 13px;
+    }
+
+    .layer > .button {
+        padding: 8px 15px;
     }
 
 }

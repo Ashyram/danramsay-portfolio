@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dan Ramsay Portfolio Site</title>
@@ -9,85 +9,109 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  </head>
 
-</head>
-
-<body>
-
-<div id="header-about">
-    <div class="container">
+  <body>
+    <div id="header-about">
+      <div class="container">
         <nav>
-            <img src="img/logo.png" class="logo" alt="Logo">
-            <ul id="sidemenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="plutopay.html">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          <img src="img/logo.png" class="logo" alt="Logo">
+          <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="plutopay.html">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
+      </div>
     </div>
-</div>
 
-<div id="about">
-    <div class="container">
+    <div id="about">
+      <div class="container">
         <div class="row">
-            <div class="about-column-1">
-                <img src="img/portrait.png" alt="Portrait">
+          <div class="about-column-1">
+            <img src="img/portrait.png" alt="Portrait">
+          </div>
+          <div class="about-column-2">
+            <h1 class="about-me-h1">About Me</h1>
+            <h2>My Story</h2>
+            <p>
+              My story: With a background in journalism. I’ve really tried a
+              little bit of everything in search of finding a job that fits.
+              I’ve worked in kitchens and offices, but nothing really ever felt
+              right. That has come with its challenges, but also its advantages.
+              I’ve developed the ability to pick up skills quicker than most, as
+              well as a collection of eclectic skills and abilities; that might
+              seem disparate, but have ultimately made me a more well rounded
+              person. My UX journey hasn’t been especially long, but I’ve come
+              to it with passion and zeal; trying to absorb as many skills and
+              as much knowledge as I can. With each project I complete I can see
+              how my skills are improving, and will only continue to improve as
+              I gain more and more experience.
+            </p>
+            <a href="files/resume.pdf" download class="button" id="resume-button">Download my CV</a>
+            <div class="row">
+              <div class="skills-column-1">
+                <h3>Relevant Skills</h3>
+                <ul>
+                  <li>
+                    Crafting relevant and focused problem statements and
+                    hypotheses.
+                  </li>
+                  <li>
+                    User research (Moderated, un-moderated, in-person, remote)
+                  </li>
+                  <li>Competitive analysis</li>
+                  <li>Card Sorting</li>
+                  <li>Persona Creation</li>
+                  <li>User journeys</li>
+                  <li>Wire frames</li>
+                  <li>Prototype creation/design</li>
+                  <li>Basic HTML, CSS, and javascript knowledge</li>
+                </ul>
+              </div>
+              <div class="skills-column-2">
+                <h3>Tools I Use</h3>
+                <ul>
+                  <li>Figma</li>
+                  <li>Behance</li>
+                  <li>Google Workspace</li>
+                  <li>Visual Studio</li>
+                </ul>
+              </div>
             </div>
-            <div class="about-column-2">
-                <h1 class="about-me-h1">About Me</h1>
-                <h2>My Story</h2>
-                <p>My story: With a background in journalism. I’ve really tried a little bit of everything in search of finding a job that fits. 
-                    I’ve worked in kitchens and offices, but nothing really ever felt right. That has come with its challenges, but also its advantages. 
-                    I’ve developed the ability to pick up skills quicker than most, as well as a collection of eclectic skills and abilities; that might seem disparate, 
-                    but have ultimately made me a more well rounded person. My UX journey hasn’t been especially long, but I’ve come to it with passion and zeal; trying to 
-                    absorb as many skills and as much knowledge as I can. With each project I complete I can see how my skills are improving, and will only continue to improve 
-                    as I gain more and more experience.</p>
-                    <a href="files/resume.pdf" download class="button" id="resume-button">Download my CV</a>
-                    <div class="row">
-                        <div class="skills-column-1">
-                            <h3>Relevant Skills</h3>
-                            <ul>
-                            <li>Crafting relevant and focused problem statements and hypotheses.</li>
-                                <li>User research (Moderated, unmoderated, in-person, remote)</li>
-                                <li>Competitive analysis</li>
-                                <li>Card Sorting</li>
-                                <li>Persona Creation</li>
-                                <li>User journeys</li>
-                                <li>Wireframes</li>
-                                <li>Prototype creation/design</li>
-                                <li>Basic HTML, CSS, and javascript knowledge</li>
-                            </ul>
-                        </div>
-                        <div class="skills-column-2">
-                            <h3>Tools I Use</h3>
-                            <ul>
-                                <li>Figma</li>
-                                <li>Behance</li>
-                                <li>Google Workspace</li>
-                                <li>Visual Studio</li>
-                            </ul>
-                        </div>
-                    </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-
-<div id="contact">
-    <div class="container">
+    <div id="contact">
+      <div class="container">
         <h1>Get In Touch</h1>
-        <p>If you like my work, I encourage you to reach out to me to discuss future oppurtunities! <br> Call +61 410038082 <br> Prefer sending an email?</p>
-        <a href="mailto: danramsay96@gmail.com" class="button">Email Me</a>
-        <br><a href="https://www.facebook.com/daniel.s.ramsay"><i class="fa-brands fa-square-facebook"></i></a>
+        <p>
+          If you like my work, I encourage you to reach out to me to discuss
+          future opportunities! <br>
+          Call +61 410038082 <br>
+          Prefer sending an email?
+        </p>
+        <a href="mailto:danramsay96@gmail.com" class="button">Email Me</a>
+        <br /><a href="https://www.facebook.com/daniel.s.ramsay"><i class="fa-brands fa-square-facebook"></i></a>
         <a href="https://twitter.com/Dramss96"><i class="fa-brands fa-square-twitter"></i></a>
         <a href="https://www.linkedin.com/in/daniel-ramsay-107543152/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
     </div>
-</div>
 
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
 
-</body>
+  </body>
 </html>
